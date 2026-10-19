@@ -12,9 +12,6 @@ def regla_tiempo_correcto(pieza, tolerancia=0.0001):
     diferencia = abs(pieza["tiempo_min"] - tiempo_esperado)
     return diferencia <= tolerancia
     
-    # TU CÓDIGO: calcula la diferencia entre pieza["tiempo_min"] y tiempo_esperado,
-    
-    # y devuelve True si la diferencia es menor o igual a 0.0001
 
 pieza_buena = {"nombre": "eje A", "longitud_mm": 120, "avance_mm_min": 400, "tiempo_min": 0.3}
 pieza_avanze_fiuera_de_rango = {"nombre": "eje B", "longitud_mm": 85, "avance_mm_min": 900, "tiempo_min": 0.0944}
